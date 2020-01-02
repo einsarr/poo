@@ -4,8 +4,9 @@ class Ordinateur extends Produit{
     private $marque;
     
 
-    public function __construct($marque)
+    public function __construct($id,$nom,$marque)
     {
+        parent::__construct($id,$nom);
         $this->marque = $marque;
     }
 

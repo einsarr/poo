@@ -6,6 +6,7 @@ class Cadeau extends Produit{
 
     public function __construct($evenement)
     {
+        parent::__construct($id,$nom);
         $this->evenement = $evenement;
     }
 
