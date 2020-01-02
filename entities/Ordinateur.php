@@ -1,6 +1,6 @@
 <?php
 require_once "Produit.php";
-class Ordinateur implements Produit{
+class Ordinateur extends Produit{
     private $marque;
     
 

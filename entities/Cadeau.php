@@ -1,6 +1,6 @@
 <?php
 require_once "Produit.php";
-class Cadeau implements Produit{
+class Cadeau extends Produit{
     private $evenement;
     
 
