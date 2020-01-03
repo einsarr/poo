@@ -2,9 +2,8 @@
 require_once "Produit.php";
 class Cadeau extends Produit{
     private $evenement;
-    
 
-    public function __construct($evenement)
+    public function __construct($id,$nom,$evenement)
     {
         parent::__construct($id,$nom);
         $this->evenement = $evenement;
